@@ -381,6 +381,7 @@ section.work .father .image .layout a{
 .contact button:hover{
   background: none;
   border:1px solid #f7600e;
+  outline: none;
 }
 /**footer*/
 .footer{
