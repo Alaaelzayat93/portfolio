@@ -13,6 +13,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    overflow-x:hidden;
     
 }
 /*end framework*/
@@ -132,6 +133,11 @@ cursor:pointer;
    width: 100%;
    padding: 20px 0;
    text-align: center;
+}
+@media (max-width: 991px){
+.toggle-nav{
+  right:172px;
+}
 }
 /*about*/
 .about{
@@ -408,4 +414,9 @@ section.work .father .image .layout a{
 .footer footer{
   font-size: 24px;
     text-align: center;
+}
+@media(max-width: 991px){
+  .footer{
+    height: auto;
+  }
 }
