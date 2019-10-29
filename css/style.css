@@ -136,7 +136,7 @@ cursor:pointer;
 }
 @media (max-width: 991px){
 .toggle-nav{
-  right:172px;
+  right:80px;
 }
 }
 /*about*/
@@ -253,7 +253,7 @@ section.rates .rate i{
     
      font-size: 30px;
     background: #948a82;
-    padding: 20px;
+    padding: 20px 20px;
     border-radius: 50%;
     margin-bottom: 20px;
 
@@ -388,6 +388,12 @@ section.work .father .image .layout a{
   background: none;
   border:1px solid #f7600e;
   outline: none;
+}
+@media(max-width: 992px){
+  .contact input[type="text"]{
+    width:325px !important;
+  }
+  
 }
 /**footer*/
 .footer{
