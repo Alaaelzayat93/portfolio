@@ -378,6 +378,10 @@ section.work .father .image .layout a{
     margin: 50px 50px;
     color: #555;
 }
+.contact button:hover{
+  background: none;
+  border:1px solid #f7600e;
+}
 /**footer*/
 .footer{
   background:linear-gradient(#4e5051,rgba(92, 95, 94, 0.73)),url(../images/back.jpg) no-repeat;
