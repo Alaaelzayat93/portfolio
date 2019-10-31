@@ -146,6 +146,10 @@ cursor:pointer;
 .about h1{
   color:#999ea2
 }
+.about .profile h1,.about .skills h1{
+  font-size: 25px;
+  margin-bottom:25px;
+}
 
 .about h3{
   color:#555;
@@ -190,6 +194,11 @@ cursor:pointer;
 .about .skills .gh{
   background: #f7600e;
   width:80%;
+}
+@media(max-width: 992px){
+  .about .about-info p{
+    width:100% !important;
+  }
 }
 /**end about*/
 /*start services*/
@@ -237,6 +246,7 @@ section.services .line span{
   font-size: 16px;
     line-height: 1.65;
     font-family: "Open Sans", sans-serif;
+    color:#ccc;
 }
 /*rates*/
 section.rates{
@@ -264,6 +274,11 @@ section.rates .rate span{
 }
 section.rates .rate h5{
     font-size: 1rem;
+}
+@media(max-width: 992px){
+  section.rates{
+    height: auto;
+  }
 }
 /***work*/
 section.work{
@@ -358,6 +373,16 @@ section.work .father .image .layout a{
     display: inline-block;
     letter-spacing: 3px;
     text-decoration: none;
+}
+@media(max-width: 992px){
+  section.work .father .image{
+    width: 100%;
+  }
+  section.work .father .image .layout a{
+    margin-left: 2em;
+    padding:4px 1px;
+    letter-spacing: 1px;
+  }
 }
 /*start contact*/
 
