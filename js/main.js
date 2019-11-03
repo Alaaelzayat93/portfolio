@@ -41,6 +41,11 @@ $('.header').height($(window).height());
   });
   /*scroll own*/
 
-
+ $('.arrow').click(function () {
+    $("html, body").animate({
+      scrollTop: 500
+    }, 50);
+      return false;
+  });
 
 
