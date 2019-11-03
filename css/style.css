@@ -34,8 +34,12 @@ body{
     height: 100%;
 
 }
-.header span.head{
+.header h4.head{
     font-size: 30px;
+}
+.header h4.head span{
+  color: #ccc;
+  
 }
 .header .navbar{
     overflow: hidden;
