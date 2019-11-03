@@ -137,7 +137,7 @@ cursor:pointer;
 }
 @media (max-width: 991px){
 .toggle-nav{
-  right:80px;
+  right:50px;
 }
 }
 /*about*/
