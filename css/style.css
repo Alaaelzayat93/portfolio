@@ -143,6 +143,9 @@ cursor:pointer;
 .toggle-nav{
   right:50px;
 }
+.links{
+  top:28% !important;
+}
 }
 /*about*/
 .about{
@@ -404,6 +407,7 @@ section.work .father .image .layout a{
     outline: 0;
     border-bottom: 2px solid #f7600e;
     width: 100%;
+    margin: 20px 20px;
 }
 .contact button{
   background: #f7600e;
@@ -412,7 +416,7 @@ section.work .father .image .layout a{
     border: 0;
     border-radius: 20px;
     margin: 50px 50px;
-    color: #555;
+    color: #fff;
 }
 .contact button:hover{
   background: none;
