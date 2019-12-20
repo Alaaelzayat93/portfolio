@@ -148,6 +148,10 @@ cursor:pointer;
 .links{
   top:28% !important;
 }
+.full-scr-nav{
+  right:28px !important;
+  width:44% !important;
+}
 }
 /*about*/
 .about{
