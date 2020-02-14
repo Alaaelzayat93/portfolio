@@ -213,6 +213,10 @@ cursor:pointer;
   background: #f7600e;
   width:95%;
 }
+.about .skills .wordpress{
+  background: #f7600e;
+  width: 98%;
+}
 @media(max-width: 992px){
   .about .about-info p{
     width:100% !important;
